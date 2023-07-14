@@ -1,8 +1,9 @@
 import React, {useState} from "react";
 import {FaBars, FaTimes, FaGithub, FaLinkedin,FaInstagram} from 'react-icons/fa';
-import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {Link} from 'react-scroll';
+import bg from '../image/3D-Animated-Website-Backgrounds.jpg'
+
 export default function Navbar(){
     const [navbar,setNavbar] = useState(false);
     {/* For Clicking on Hamburger */}
@@ -10,7 +11,7 @@ export default function Navbar(){
     const resume= "./AdityaResume.pdf";
 
     return(
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+        <div style={{backgroundImage:`url(${bg})`}} className="fixed  w-full z-20 h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
             <div >
               <h1 className="text-4xl text-[#FFD966] font-bold font-navheading" >Portfolio</h1>
             </div>
@@ -51,11 +52,11 @@ export default function Navbar(){
 
             {/*Mobile Menu */}
             <ul className={!navbar ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col bg-[#0a192f] justify-center items-center'}  >
-                <li className="py-6 text-4xl">Home</li>
-                <li className="py-6 text-4xl">About</li>
-                <li className="py-6 text-4xl">Skills</li>
-                <li className="py-6 text-4xl">Projects</li>
-                <li className="py-6 text-4xl">Contact</li>
+                <li className="py-6 text-4xl"><Link to="home">Home</Link></li>
+                <li className="py-6 text-4xl"><Link to="about">About</Link></li>
+                <li className="py-6 text-4xl"><Link to="skills">Skills</Link></li>
+                <li className="py-6 text-4xl"><Link to="projects">Projects</Link></li>
+                <li className="py-6 text-4xl"><Link to="contact">Contact</Link></li>
             </ul>
 
             {/*Social icons*/}
@@ -76,11 +77,7 @@ export default function Navbar(){
                             Instagram <FaInstagram size={30}/>
                         </a>
                     </li>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-slate-600">
-                        <a href={resume} className="flex justify-between items-center w-full text-gray-300 ">
-                            Resume <BsFillPersonLinesFill size={30}/>
-                        </a>
-                    </li>
+                    
                 </ul>
                 
             </div>
