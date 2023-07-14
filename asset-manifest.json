@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio-react/static/css/main.be3c2b00.css",
+    "main.js": "/Portfolio-react/static/js/main.ff2b5a7b.js",
+    "static/media/3d-web-developer-working-on-project-illustration-png.webp": "/Portfolio-react/static/media/3d-web-developer-working-on-project-illustration-png.68f4918c72567f086b80.webp",
+    "static/media/3D-Animated-Website-Backgrounds.jpg": "/Portfolio-react/static/media/3D-Animated-Website-Backgrounds.3d76e39d1f7315d8c8ab.jpg",
+    "static/media/Calculator.png": "/Portfolio-react/static/media/Calculator.fcf7a8910c5232a78714.png",
+    "static/media/atom.png": "/Portfolio-react/static/media/atom.ac9979693620f0a96231.png",
+    "static/media/nodejs.png": "/Portfolio-react/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/NewsAppCover.jpg": "/Portfolio-react/static/media/NewsAppCover.8ee5b8d2cd4c48c03304.jpg",
+    "static/media/java.png": "/Portfolio-react/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/blogsite.webp": "/Portfolio-react/static/media/blogsite.07372db5dbcc5be6cbf5.webp",
+    "static/media/c-.png": "/Portfolio-react/static/media/c-.24a8f93854ab092f17a7.png",
+    "static/media/html.png": "/Portfolio-react/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/css-3.png": "/Portfolio-react/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/Portfolio-react/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/Portfolio-react/index.html",
+    "main.be3c2b00.css.map": "/Portfolio-react/static/css/main.be3c2b00.css.map",
+    "main.ff2b5a7b.js.map": "/Portfolio-react/static/js/main.ff2b5a7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be3c2b00.css",
+    "static/js/main.ff2b5a7b.js"
+  ]
+}
