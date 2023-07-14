@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-react/static/css/main.be3c2b00.css",
-    "main.js": "/Portfolio-react/static/js/main.ff2b5a7b.js",
+    "main.css": "/Portfolio-react/static/css/main.c1299601.css",
+    "main.js": "/Portfolio-react/static/js/main.d20dadf9.js",
     "static/media/3d-web-developer-working-on-project-illustration-png.webp": "/Portfolio-react/static/media/3d-web-developer-working-on-project-illustration-png.68f4918c72567f086b80.webp",
     "static/media/3D-Animated-Website-Backgrounds.jpg": "/Portfolio-react/static/media/3D-Animated-Website-Backgrounds.3d76e39d1f7315d8c8ab.jpg",
     "static/media/Calculator.png": "/Portfolio-react/static/media/Calculator.fcf7a8910c5232a78714.png",
@@ -15,11 +15,11 @@
     "static/media/css-3.png": "/Portfolio-react/static/media/css-3.463e319bad8e0edf1ef7.png",
     "static/media/js.png": "/Portfolio-react/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/Portfolio-react/index.html",
-    "main.be3c2b00.css.map": "/Portfolio-react/static/css/main.be3c2b00.css.map",
-    "main.ff2b5a7b.js.map": "/Portfolio-react/static/js/main.ff2b5a7b.js.map"
+    "main.c1299601.css.map": "/Portfolio-react/static/css/main.c1299601.css.map",
+    "main.d20dadf9.js.map": "/Portfolio-react/static/js/main.d20dadf9.js.map"
   },
   "entrypoints": [
-    "static/css/main.be3c2b00.css",
-    "static/js/main.ff2b5a7b.js"
+    "static/css/main.c1299601.css",
+    "static/js/main.d20dadf9.js"
   ]
 }
